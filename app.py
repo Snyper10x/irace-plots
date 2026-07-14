@@ -9,8 +9,9 @@ from matplotlib.patches import Patch
 # Page configuration
 st.set_page_config(page_title="iRacing Stint Strategy & Telemetry", layout="wide", page_icon="🏎️")
 
-st.title("🏎️ iRacing Stint Strategy & Telemetry Plotter")
+st.title("🏎️ iRacing Stint Strategy & Lap Telemetry Plotter")
 st.write("Upload your raw iRacing Lap Chart JSON file below to generate a comprehensive, interactive telemetry dashboard for your team.")
+st.write("How to download JSON file: iRacing console->Results & Stats->Results->Lap Chart tab->Download Lap Data")
 
 # 1. Interactive File Uploader
 uploaded_file = st.file_uploader("Step 1: Drag and drop your raw iRacing JSON file here", type=["json"])
